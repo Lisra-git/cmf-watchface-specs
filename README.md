@@ -1,6 +1,6 @@
 # cmf-watchface-specs
 
-Header/Footer (0x24)
+### Header/Footer (0x24)
 
 | Offset | Bytes                                      | Description                                                                 |
 |--------|--------------------------------------------|-----------------------------------------------------------------------------|
@@ -10,3 +10,11 @@ Header/Footer (0x24)
 | 0x18   | 51 26 00 00                                | Full length - 0x24 (0x4)                                                    |
 | 0x1C   | 7A 25 00 00                                | Asset store length (from first asset header to last byte of last asset) (0x4) |
 | 0x20   | 00 00 00 00                                | CRC (0x4)                               |
+
+### Function Store Specs (0x3)
+
+| Offset | Bytes | Description                                                  |
+|--------|-------|--------------------------------------------------------------|
+| 0x00   | 20    | Tag                                                          |
+| 0x01   | B0 00 | Function Store Length (from 0x27)                                  |
+
