@@ -15,6 +15,6 @@
 
 | Offset | Bytes | Description                                                  |
 |--------|-------|--------------------------------------------------------------|
-| 0x00   | 20    | Tag                                                          |
-| 0x01   | B0 00 | Function Store Length (from 0x27)                                  |
+| 0x00   | 20    | Tag (0x1)                                                   |
+| 0x01   | B0 00 | Function Store Length (from 0x27) (0x2)                                |
 
